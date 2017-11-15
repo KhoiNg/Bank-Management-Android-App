@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BankControl</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="aboutandcontact">About &amp; Contact</string>
+    <string name="TextViewAddNoteEnd">Note : ID Format = Selected Description + CurrentTime
+    \nOnly Income/Wage or Bonus Money will have a positive sign
+    </string>
+
+    <string-array name="descriptionoptions">
+        <item> Income/Wage </item>
+        <item> Bonus Money </item>
+        <item> Housing </item>
+        <item> Food/Grogeries </item>
+        <item> Transportation </item>
+        <item> Health/Insurance </item>
+        <item> Education </item>
+        <item> Buying things </item>
+        <item> Entertainment </item>
+        <item> Others </item>
+    </string-array>
+    <string-array name="searchtypeoption">
+        <item> Search By ID </item>
+        <item> Search By Information </item>
+    </string-array>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="TextInformation1">
+        This app is the stimulation of a private Bank Account Control.
+    </string>
+    <string name="TextInformation2">
+        Copyright © Khoi P Nguyen. All Rights Reserved.\n
+        Khoi.Nguyen@trojans.dsu.edu \n
+        (605) 480-4394 \n
+        <a href='http://khoinguyen.byethost32.com/'> Website </a>
+    </string>
+
+    <string-array name="viewFilterDate">
+        <item> Filter By Date: None </item>
+        <item> Filter By Date: Ascending </item>
+        <item> Filter By Date: Descending </item>
+    </string-array>
+
+    <string-array name="viewFilterDescription">
+        <item> Filter By Description: None </item>
+        <item> Filter By Description: Income/Wage </item>
+        <item> Filter By Description: Bonus Money </item>
+        <item> Filter By Description: Housing </item>
+        <item> Filter By Description: Food/Grogeries </item>
+        <item> Filter By Description: Transportation </item>
+        <item> Filter By Description: Health/Insurance </item>
+        <item> Filter By Description: Education </item>
+        <item> Filter By Description: Buying things </item>
+        <item> Filter By Description: Entertainment </item>
+        <item> Filter By Description: Others </item>
+    </string-array>
+
+    <string-array name="viewFilterAmount">
+        <item> Filter By Amount: None </item>
+        <item> Filter By Amount: Less than 100 </item>
+        <item> Filter By Amount: From 100 to 500 </item>
+        <item> Filter By Amount: From 500 to 1000 </item>
+        <item> Filter By Amount: More than 1000 </item>
+    </string-array>
+
+
+</resources>

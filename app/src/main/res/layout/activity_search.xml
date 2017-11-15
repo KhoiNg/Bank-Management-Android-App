@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="khoitest.bankcontrol.MainFunction.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/checkBoxSearchId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Id"
+            android:layout_marginBottom="10sp"
+            android:onClick="check"/>
+
+        <EditText
+            android:id="@+id/editTextSearchId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:hint="Enter Id to Search"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:layout_marginBottom="15sp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxSearchInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Information"
+            android:layout_marginBottom="10sp"
+            android:onClick="check"/>
+
+        <TextView
+            android:id="@+id/textViewSearchDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:layout_marginLeft="10sp"
+            android:text="Select Date"
+            android:onClick="chooseDate"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textnoteSearchDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:layout_marginLeft="10sp"
+            android:text="Description"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSearchDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="5sp"
+            android:entries="@array/descriptionoptions" />
+
+        <EditText
+            android:id="@+id/editTextSearchAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="10sp"
+            android:hint="Enter Amount to Search"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Search"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:onClick="answer"
+            android:layout_marginBottom="10sp"/>
+
+        <TextView
+            android:id="@+id/textViewFoundThings"
+            style="@style/GeneralNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
